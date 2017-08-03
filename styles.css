@@ -1,0 +1,41 @@
+﻿table, th, td{
+    border: 1px solid black;
+	text-align: center;
+}
+table{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+.header_links{
+	display: block;
+	float: left; 
+	padding: 0.5% 0.75%;
+}
+#search_form{
+	display: block;
+	float: right; 
+	padding: 0.5% 1%;
+}
+#login_form{
+	display: block;
+	float: left; 
+	padding: 0.5% 1%;
+}
+#register_form,#buy_form,#time_form,#commission,#frequent_flyers,#panel_form,#chart,#chart_div{
+	width: 35%;
+	margin: 2.5% auto; 
+	text-align: center;
+}
+#logout_text{
+	width: 35%;
+	margin: 5% auto; 
+	text-align: center;
+}
+#account_type{
+	text-align: center;
+}
+#reg_form, #customer_form, #agent_form, #staff_form, #buy_info,#new_flight_form, #status_form,#new_airplane_form,#new_airport_form{
+	text-align: left;
+}
